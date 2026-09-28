@@ -9,9 +9,9 @@
 <pre>
 +-[ sobre ]-------------------------------------------------
 |
-| Gosto de trabalhar onde o código encontra o mundo
-| físico: robótica, hardware e programação, com a
-| modelagem 3D dando forma às ideias.
+| Breves Preces De Um Trilhao de Anjos
+| 
+| vo colocar umas coisa ainda
 |
 +-----------------------------------------------------------
 </pre>
