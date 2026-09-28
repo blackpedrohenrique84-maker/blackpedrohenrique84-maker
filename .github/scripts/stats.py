@@ -10,7 +10,7 @@ import urllib.request
 USER = os.environ.get("GH_USER") or os.environ.get("GITHUB_REPOSITORY_OWNER")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
-W = 58          # largura interna da caixa
+W = 60          # largura da caixa
 BAR = 22        # largura das barras
 
 
@@ -53,7 +53,7 @@ def collect():
 
 
 def row(text=""):
-    return "| " + text.ljust(W - 2) + " |"
+    return ("| " + text).rstrip()
 
 
 def pair(a, av, b, bv):
@@ -63,7 +63,7 @@ def pair(a, av, b, bv):
 
 
 def render(d):
-    lines = ["+-[ números ]" + "-" * (W - 12) + "+"]
+    lines = ["+-[ números ]" + "-" * (W - 13)]
     lines.append(row())
     prs = "?" if d["prs"] is None else d["prs"]
     lines.append(pair("repositórios", d["repos"], "estrelas", d["stars"]))
@@ -81,7 +81,7 @@ def render(d):
     else:
         lines.append(row("  sem dados ainda"))
     lines.append(row())
-    lines.append("+" + "-" * W + "+")
+    lines.append("+" + "-" * (W - 1))
     return "\n".join(lines)
 
 
