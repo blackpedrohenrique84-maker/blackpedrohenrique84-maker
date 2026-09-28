@@ -1,92 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" role="img" aria-label="Pedro Henrique, dev de software e modelador 3D">
-  <defs>
-    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.42" stop-color="#b9ffd9"/>
-      <stop offset="0.5" stop-color="#00E676"/>
-      <stop offset="1" stop-color="#003d1f"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#00E676" fill-opacity="0.18"/>
-    </pattern>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00E676" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#00E676" stop-opacity="0"/>
-    </radialGradient>
-    <path id="spark" d="M0-11Q0 0 11 0Q0 0 0 11Q0 0-11 0Q0 0 0-11Z"/>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 516" width="100%" role="img" aria-label="Pedro Henrique, dev de software e modelador 3D">
+<defs>
+  <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity="0.28"/></pattern>
+  <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#eafff3"/><stop offset="0.55" stop-color="#00E676"/><stop offset="1" stop-color="#009c4f"/>
+  </linearGradient>
+  <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+    <stop offset="0.6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+  </radialGradient>
+</defs>
+<style>
+  text { font-family: ui-monospace,'SF Mono',Consolas,'DejaVu Sans Mono','Courier New',monospace; white-space: pre; }
+  .cur { animation: bl 1.1s steps(1) infinite; }
+  @keyframes bl { 50% { opacity: 0; } }
+</style>
 
-  <style>
-    .mono { font-family: ui-monospace, Consolas, 'Courier New', monospace; }
-    .tw { animation: tw 3.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes tw { 0%,100% { transform: scale(.3); opacity: .2; } 50% { transform: scale(1); opacity: 1; } }
-  </style>
+<rect width="1000" height="516" fill="#020806"/>
 
-  <rect width="1000" height="300" rx="14" fill="#060908"/>
-  <rect width="1000" height="300" rx="14" fill="url(#dots)"/>
-  <circle cx="782" cy="170" r="210" fill="url(#glow)"/>
+<g fill="#00E676" filter="url(#glow)">
+  <text x="24.0" y="34.0" font-size="13" textLength="109.2" lengthAdjust="spacing" fill="#5f8f77">V0ID BIOS (TM)</text>
+  <text x="410.3" y="34.0" font-size="13" textLength="179.4" lengthAdjust="spacing" fill="#5f8f77">(C) 2026 PEDRO HENRIQUE</text>
+  <text x="921.4" y="34.0" font-size="13" textLength="54.6" lengthAdjust="spacing" fill="#5f8f77">VER 1.0</text>
 
-  <!-- nome -->
-  <rect x="60" y="34" width="104" height="24" rx="12" fill="none" stroke="#00E676" stroke-opacity="0.6"/>
-  <text class="mono" x="112" y="51" font-size="13" fill="#00E676" text-anchor="middle">v0idguyy</text>
+  <rect x="20" y="50" width="960" height="44" fill="none" stroke="#00E676" stroke-width="1.5"/>
+  <rect x="92" y="57" width="96" height="30" fill="#00E676"/>
+  <text x="110.0" y="79.0" font-size="20" textLength="60.0" lengthAdjust="spacing" fill="#020806">SOBRE</text>
+  <text x="350.0" y="79.0" font-size="20" textLength="60.0" lengthAdjust="spacing">STACK</text>
+  <text x="572.0" y="79.0" font-size="20" textLength="96.0" lengthAdjust="spacing">PROJETOS</text>
+  <text x="818.0" y="79.0" font-size="20" textLength="84.0" lengthAdjust="spacing">CONTATO</text>
 
-  <g font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="78" letter-spacing="-2" fill="url(#chrome)">
-    <text x="56" y="130">pedro</text>
-    <text x="56" y="205">henrique</text>
-  </g>
+  <rect x="20" y="108" width="450" height="280" fill="none" stroke="#00E676" stroke-width="1.5"/>
+  <rect x="484" y="108" width="496" height="280" fill="none" stroke="#00E676" stroke-width="1.5"/>
+</g>
 
-  <text class="mono" x="62" y="245" font-size="16" fill="#9fb8a9">dev de software &#183; modelador 3d</text>
-  <text class="mono" x="62" y="270" font-size="13" fill="#5c7366">rob&#243;tica &#183; hardware &#183; programa&#231;&#227;o</text>
+<g fill="#00E676" filter="url(#glow)"><text x="42.0" y="140.0" font-size="13" textLength="78.0" lengthAdjust="spacing" fill="#b9ffdc">[ perfil ]</text><text x="42.0" y="148.0" font-size="13" textLength="312.0" lengthAdjust="spacing" fill="#0f4d2e">----------------------------------------</text><text x="42.0" y="172.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">nome ....... </text><text x="143.4" y="172.0" font-size="13" textLength="218.4" lengthAdjust="spacing" fill="#00E676">Pedro Henrique Alves de Lima</text><text x="42.0" y="194.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">cargo ...... </text><text x="143.4" y="194.0" font-size="13" textLength="117.0" lengthAdjust="spacing" fill="#00E676">Dev de Software</text><text x="42.0" y="216.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">cargo ...... </text><text x="143.4" y="216.0" font-size="13" textLength="93.6" lengthAdjust="spacing" fill="#00E676">Modelador 3D</text><text x="42.0" y="238.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">foco ....... </text><text x="143.4" y="238.0" font-size="13" textLength="241.8" lengthAdjust="spacing" fill="#00E676">Robótica, Hardware, Programação</text><text x="42.0" y="260.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">discord .... </text><text x="143.4" y="260.0" font-size="13" textLength="62.4" lengthAdjust="spacing" fill="#00E676">v0idguyy</text><text x="42.0" y="282.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#5f8f77" xml:space="preserve">instagram .. </text><text x="143.4" y="282.0" font-size="13" textLength="101.4" lengthAdjust="spacing" fill="#00E676">@__thehakur0o</text><text x="42.0" y="334.0" font-size="13" textLength="7.8" lengthAdjust="spacing" fill="#b9ffdc">&gt;</text><rect class="cur" x="58.0" y="322" width="8" height="14" fill="#00E676"/></g>
+<g fill="#00E676" filter="url(#glow)"><g><text x="710.4" y="124.3" font-size="7.2" textLength="43.2" lengthAdjust="spacing" xml:space="preserve">:+@@@@@@+:</text><text x="701.8" y="132.0" font-size="7.2" textLength="60.5" lengthAdjust="spacing" xml:space="preserve">.@@@@@@@@@@@@:</text><text x="654.2" y="139.7" font-size="7.2" textLength="155.5" lengthAdjust="spacing" xml:space="preserve">:=@       .@@%@@@==@@@%@@:       @=:</text><text x="637.0" y="147.4" font-size="7.2" textLength="190.1" lengthAdjust="spacing" xml:space="preserve">.=@@@@@       @@%@@.     @@%@@       @@@@@=.</text><text x="628.3" y="155.1" font-size="7.2" textLength="207.4" lengthAdjust="spacing" xml:space="preserve">-@@@@%%%@       @%%@-      :@%%@       @%%%@@@@-</text><text x="619.7" y="162.8" font-size="7.2" textLength="224.6" lengthAdjust="spacing" xml:space="preserve">-@@@%%%##%@-      @@%@-      :@%@@      :@%##%%%@@@-</text><text x="611.0" y="170.5" font-size="7.2" textLength="241.9" lengthAdjust="spacing" xml:space="preserve">:@@@%%###*#%@@:     -@%@@      @@%@=     :@@%#+###%%@@@:</text><text x="606.7" y="178.2" font-size="7.2" textLength="250.6" lengthAdjust="spacing" xml:space="preserve">+@@%%%##+*+*#%@@+     @@%@@    +@%@@     +@@%#+*+*##%%%@@+</text><text x="598.1" y="185.9" font-size="7.2" textLength="267.8" lengthAdjust="spacing" xml:space="preserve">.@@@@@@@%%#+*+*#%@@@=    @@%@+  +@@@@.   =@@@%#+*+*#%%@@@@@@@.</text><text x="593.8" y="193.6" font-size="7.2" textLength="276.5" lengthAdjust="spacing" xml:space="preserve">.@@@+==+@@@%#+*+*#%%@@@@-. @%@@@@@@%@..-@@@@%%#+*+*#%@@@+==+@@@:</text><text x="593.8" y="201.3" font-size="7.2" textLength="276.5" lengthAdjust="spacing" xml:space="preserve">=:        @@%#######%%%@@@@@%%%%%%%%@@@@@%%%#######%@@        .=</text><text x="637.0" y="209.0" font-size="7.2" textLength="190.1" lengthAdjust="spacing" xml:space="preserve">.@%%%%%%%####%%%%%########%%%%%####%%%%%%%@:</text><text x="637.0" y="216.7" font-size="7.2" textLength="190.1" lengthAdjust="spacing" xml:space="preserve">.@@@@@@@@%%#######+*+*+*+*#######%%@@@@@@@@.</text><text x="637.0" y="224.4" font-size="7.2" textLength="190.1" lengthAdjust="spacing" xml:space="preserve">=@@+-::-@@@%%%%%%##+*+*+*##%%%%%%@@@-::-+@@+</text><text x="637.0" y="232.1" font-size="7.2" textLength="190.1" lengthAdjust="spacing" xml:space="preserve">=.       =@@@@@@@%%#+*+*#%%@@@@@@@+       .=</text><text x="680.2" y="239.8" font-size="7.2" textLength="103.7" lengthAdjust="spacing" xml:space="preserve">@@-. :@@@%#+*#%@@@: .-@@</text><text x="680.2" y="247.5" font-size="7.2" textLength="103.7" lengthAdjust="spacing" xml:space="preserve">-      .@@%##%@@:      -</text><text x="714.7" y="255.2" font-size="7.2" textLength="34.6" lengthAdjust="spacing" xml:space="preserve">.@%##%@.</text><text x="719.0" y="262.9" font-size="7.2" textLength="25.9" lengthAdjust="spacing" xml:space="preserve">@%##%@</text><text x="719.0" y="270.6" font-size="7.2" textLength="25.9" lengthAdjust="spacing" xml:space="preserve">@%##%@</text><text x="719.0" y="278.3" font-size="7.2" textLength="25.9" lengthAdjust="spacing" xml:space="preserve">@%##%@</text><text x="719.0" y="286.0" font-size="7.2" textLength="30.2" lengthAdjust="spacing" xml:space="preserve">@%##%@.</text><text x="714.7" y="293.7" font-size="7.2" textLength="34.6" lengthAdjust="spacing" xml:space="preserve">:@%##%@=</text><text x="714.7" y="301.4" font-size="7.2" textLength="34.6" lengthAdjust="spacing" xml:space="preserve">+@%##%@@</text><text x="714.7" y="309.1" font-size="7.2" textLength="34.6" lengthAdjust="spacing" xml:space="preserve">@@%#+#%@</text><text x="710.4" y="316.8" font-size="7.2" textLength="43.2" lengthAdjust="spacing" xml:space="preserve">-@%#+*#%@=</text><text x="710.4" y="324.5" font-size="7.2" textLength="43.2" lengthAdjust="spacing" xml:space="preserve">@@%#*+#%@@</text><text x="706.1" y="332.2" font-size="7.2" textLength="51.8" lengthAdjust="spacing" xml:space="preserve">+@@%#+*#%@@@</text><text x="706.1" y="339.9" font-size="7.2" textLength="51.8" lengthAdjust="spacing" xml:space="preserve">.=@@%##%@@+.</text><text x="719.0" y="347.6" font-size="7.2" textLength="30.2" lengthAdjust="spacing" xml:space="preserve">@@%%@@.</text><text x="723.4" y="355.3" font-size="7.2" textLength="17.3" lengthAdjust="spacing" xml:space="preserve">@@@@</text><text x="727.7" y="363.0" font-size="7.2" textLength="13.0" lengthAdjust="spacing" xml:space="preserve">@@.</text><text x="727.7" y="370.7" font-size="7.2" textLength="8.6" lengthAdjust="spacing" xml:space="preserve">=@</text><text x="727.7" y="378.4" font-size="7.2" textLength="8.6" lengthAdjust="spacing" xml:space="preserve">.-</text></g></g>
 
-  <!-- cubo + circuito -->
-  <g transform="translate(0,20)">
-    <!-- trilhas -->
-    <g fill="none" stroke="#00E676" stroke-opacity="0.35" stroke-width="1.5" stroke-linejoin="round">
-      <path d="M830 80H890L910 60H965"/>
-      <path d="M830 150H880L900 170H965"/>
-      <path d="M805 175V215L825 235H965"/>
-      <path d="M760 80V45H690"/>
-    </g>
-    <g fill="none" stroke="#c8ffe0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-      <path pathLength="100" stroke-dasharray="8 92" d="M830 80H890L910 60H965">
-        <animate attributeName="stroke-dashoffset" values="100;-8" dur="3.2s" repeatCount="indefinite"/>
-      </path>
-      <path pathLength="100" stroke-dasharray="8 92" d="M830 150H880L900 170H965">
-        <animate attributeName="stroke-dashoffset" values="100;-8" dur="4s" begin="0.8s" repeatCount="indefinite"/>
-      </path>
-      <path pathLength="100" stroke-dasharray="8 92" d="M805 175V215L825 235H965">
-        <animate attributeName="stroke-dashoffset" values="100;-8" dur="3.6s" begin="1.5s" repeatCount="indefinite"/>
-      </path>
-      <path pathLength="100" stroke-dasharray="8 92" d="M760 80V45H690">
-        <animate attributeName="stroke-dashoffset" values="100;-8" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
-      </path>
-    </g>
-    <g fill="#060908" stroke="#00E676" stroke-width="1.5">
-      <circle cx="965" cy="60" r="4"/>
-      <circle cx="965" cy="170" r="4"/>
-      <circle cx="965" cy="235" r="4"/>
-      <circle cx="690" cy="45" r="4"/>
-    </g>
+<rect x="20" y="402" width="960" height="100" fill="none" stroke="#00E676" stroke-width="1.5"/>
+<g fill="#0f4d2e"><text x="62.6" y="421.4" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">    ..     .    ..    ...   ...... ... .     . ... .    ..     ..   .. ... .     </text><text x="62.6" y="434.0" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve"> ... . ..... ... . ... . ... ..... ... . .....  .. . ... ... ... ... . ... . ....</text><text x="62.6" y="446.6" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve"> ... . ..... ... . ... . ... ..... ... . ..... . . . ... ... ... ... . ... . ....</text><text x="62.6" y="459.2" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">    ..    .. ... .    .. ... .....     .    .. . . .    .... ... ... . ... .    .</text><text x="62.6" y="471.8" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve"> ..... ..... ... . . ... ... ..... ... . ..... ..  . . ..... ... . . . ... . ....</text><text x="62.6" y="484.4" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve"> ..... ..... ... . .. .. ... ..... ... . ..... ... . .. .... ... .. .. ... . ....</text><text x="62.6" y="497.0" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve"> .....     .    .. ... ..   ...... ... .     . ... . ... .     ..  . ..   ..     </text></g>
+<g fill="url(#name)" filter="url(#glow)"><text x="62.6" y="421.4" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">####  ##### ####  ####   ###      #   # ##### #   # ####  #####  ###  #   # #####</text><text x="62.6" y="434.0" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">#   # #     #   # #   # #   #     #   # #     ##  # #   #   #   #   # #   # #    </text><text x="62.6" y="446.6" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">#   # #     #   # #   # #   #     #   # #     # # # #   #   #   #   # #   # #    </text><text x="62.6" y="459.2" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">####  ####  #   # ####  #   #     ##### ####  # # # ####    #   #   # #   # #### </text><text x="62.6" y="471.8" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">#     #     #   # # #   #   #     #   # #     #  ## # #     #   # # # #   # #    </text><text x="62.6" y="484.4" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">#     #     #   # #  #  #   #     #   # #     #   # #  #    #   #  #  #   # #    </text><text x="62.6" y="497.0" font-size="18.0" textLength="874.8" lengthAdjust="spacing" xml:space="preserve">#     ##### ####  #   #  ###      #   # ##### #   # #   # #####  ## #  ###  #####</text></g>
 
-    <!-- cubo wireframe -->
-    <g fill="none" stroke="#00E676" stroke-width="2" stroke-linejoin="round">
-      <path d="M760 80V150H735" stroke-dasharray="4 5" stroke-opacity="0.5"/>
-      <path d="M760 150H830" stroke-dasharray="4 5" stroke-opacity="0.5"/>
-      <path d="M760 80H830V150"/>
-      <path d="M735 105L760 80M805 105L830 80M805 175L830 150"/>
-      <path d="M735 175L760 150" stroke-dasharray="4 5" stroke-opacity="0.5"/>
-      <rect x="735" y="105" width="70" height="70" fill="#00E676" fill-opacity="0.09"/>
-    </g>
-
-    <!-- anel orbital -->
-    <g transform="translate(782 128) rotate(-20)">
-      <ellipse rx="125" ry="32" fill="none" stroke="#00E676" stroke-opacity="0.45"/>
-      <circle r="5" fill="#e8fff3">
-        <animateMotion dur="7s" repeatCount="indefinite" path="M-125,0 a125,32 0 1,0 250,0 a125,32 0 1,0 -250,0"/>
-      </circle>
-    </g>
-  </g>
-
-  <use href="#spark" class="tw" x="640" y="70" fill="#b9ffd9"/>
-  <use href="#spark" class="tw" x="940" y="130" fill="#00E676" style="animation-delay:1.6s"/>
+<rect width="1000" height="516" fill="url(#scan)"/>
+<rect width="1000" height="516" fill="url(#vig)"/>
 </svg>
