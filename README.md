@@ -30,7 +30,6 @@
 +-----------------------------------------------------------
 </pre>
 
-```markdown
 <!-- STATS:START -->
 ```text
 +-[ números ]--------------------------------------------
@@ -39,25 +38,16 @@
 | para preencher este bloco.
 |
 +--------------------------------------------------------
-```
-<!-- STATS:END -->
-
-<pre>+-[ atividade ]---------------------------------------------</pre>
 <div align="center">
-
+<br>
 <img src="https://streak-stats.demolab.com?user=blackpedrohenrique84-maker&background=020806&border=0f4d2e&ring=00E676&fire=00E676&currStreakNum=b9ffdc&currStreakLabel=00E676&sideNums=b9ffdc&sideLabels=5f8f77&dates=5f8f77&stroke=0f4d2e" alt="streak" />
-
 <img src="https://github-trophies.vercel.app/?username=blackpedrohenrique84-maker&theme=matrix&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="troféus" />
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake.svg" />
+<img alt="snake" src="https://raw.githubusercontent.com/blackpedrohenrique84-maker/blackpedrohenrique84-maker/output/github-snake-dark.svg" />
 </picture>
-
 </div>
-<pre>+-----------------------------------------------------------</pre>
-
 <pre>
 +-[ contato ]-----------------------------------------------
 |
