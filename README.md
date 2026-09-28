@@ -30,8 +30,8 @@
 +-----------------------------------------------------------
 </pre>
 
-<!-- STATS:START -->
-```text
+<! STATS:START >
+text
 +-[ números ]--------------------------------------------
 |
 | rode o workflow "ASCII Stats" na aba Actions
