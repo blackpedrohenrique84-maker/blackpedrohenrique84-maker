@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00E676&height=220&section=header&text=Pedro%20Henrique&fontSize=58&fontColor=ffffff&fontAlign=50&fontAlignY=38&desc=Dev%20de%20Software%20%C2%B7%20Modelador%203D&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="banner"/>
-
 <div align="center">
+
+<img src="./assets/banner.svg" width="100%" alt="Pedro Henrique - Dev de Software e Modelador 3D"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=520&lines=Dev+de+Software;Modelador+3D;Rob%C3%B3tica+%C2%B7+Hardware+%C2%B7+Programa%C3%A7%C3%A3o" alt="Typing SVG" />
@@ -91,7 +91,7 @@ cole uma linha assim (troque pelos seus, lista em https://skillicons.dev):
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=blackpedrohenrique84-maker&bg_color=0D1117&color=00E676&line=00E676&point=ffffff&area=true&area_color=00E676&hide_border=true&title_color=00E676" width="100%" />
+<img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="Gráfico 3D de contribuições" />
 
 </div>
 
@@ -101,7 +101,7 @@ cole uma linha assim (troque pelos seus, lista em https://skillicons.dev):
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=blackpedrohenrique84-maker&theme=matrix&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" />
+<img src="https://github-trophies.vercel.app/?username=blackpedrohenrique84-maker&theme=matrix&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" />
 
 </div>
 
