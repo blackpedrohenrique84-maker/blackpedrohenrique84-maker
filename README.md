@@ -34,8 +34,11 @@
 ```text
 +-[ números ]-----------------------------------------------
 |
-| rode o workflow "ASCII Stats" na aba Actions
-| para preencher este bloco.
+| repositórios ...... 6      estrelas .......... 0
+| seguidores ........ 0      pull requests ..... 0
+|
+| linguagens (bytes de código)
+|   HTML         [######################] 100.0%
 |
 +-----------------------------------------------------------
 ```
