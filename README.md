@@ -50,21 +50,7 @@
 |
 </pre>
 
-<div align="center">
 
-  <img src="https://streak-stats.demolab.com?user=blackpedrohenrique84-maker&background=020806&border=0f4d2e&ring=00E676&fire=00E676&currStreakNum=b9ffdc&currStreakLabel=00E676&sideNums=b9ffdc&sideLabels=5f8f77&dates=5f8f77&stroke=0f4d2e" alt="streak" />
-
-  <br><br>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=blackpedrohenrique84-maker&show_icons=true&theme=matrix&hide_border=true&bg_color=020806&cache_seconds=86400" alt="github stats" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blackpedrohenrique84-maker&layout=compact&theme=matrix&hide_border=true&bg_color=020806&cache_seconds=86400" alt="top languages" />
-
-  <br><br>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=blackpedrohenrique84-maker&theme=github-green-defiant&bg_color=020806&hide_border=true" alt="activity graph" />
-
-  <br><br>
 
   
 
