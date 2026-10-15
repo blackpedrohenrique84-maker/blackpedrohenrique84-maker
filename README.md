@@ -28,10 +28,10 @@
 
 <pre>
 +-[ sobre ]-------------------------------------------------
+|  gosto de desenvolver prototipos e sistemas em arduino e esp32, tenho experiencia em Blender e Impressao3D
+|  atualmente desenvolvendo sistema de analise e diagnostico de plantas e frutas com integraçao de Inteligencia Artificial
+|  e um sistema automatizado de esp32 para um balão meteorologico.
 |
-| Breves Preces De Um Trilhao de Anjos
-| 
-| vo colocar umas coisa ainda
 |
 +-----------------------------------------------------------
 </pre>
@@ -78,5 +78,5 @@
 </pre>
 
 <div align="center">
-  <sub><code>sys.exit(0) // mantido por Pedro Henrique Alves de Lima</code></sub>
+  <sub><code>Feito por Humanos né</code></sub>
 </div>
